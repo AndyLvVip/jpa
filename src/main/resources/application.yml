@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    generate-ddl: false
+    show-sql: true
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/jpa
+    username: andy
+    password: password
+logging:
+  level:
+    org:
+      hibernate: debug
